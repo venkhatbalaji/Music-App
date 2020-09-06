@@ -1,0 +1,30 @@
+header{
+    display: inline;
+    .app-tittle{
+        padding: 3vh;
+        text-align: center;
+        .app-icon{
+            font-size: 8vh;
+            color: #EC6EAD;
+        }
+    }
+    .app-main-tab{
+        text-align: center;
+       
+            button{
+                border-radius: 1vh;
+                background-color: #ec6ead;
+                border: none;
+                color: black;         
+                font-size: 3vh;
+                padding: 2vh;
+                width: 25vh;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 1vh;
+            }    
+            button:hover{
+                background-color: #3494e6;
+            }
+        }   
+}

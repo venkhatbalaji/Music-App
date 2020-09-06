@@ -1,0 +1,27 @@
+.album-card{
+    cursor: pointer;
+    margin: 1vh;
+    transform: 0.3s;
+    img{
+        display: relative;
+        width: 100%;
+        display: block;
+        border-radius: 2vh;
+    }
+    .album-card-body{
+        h4{
+            text-align: center;
+            margin: 2vh;
+        }
+    }
+    .album-card-icon{
+        position: absolute;
+        display: none;
+    }
+}
+
+.album-card:hover{
+    .album-card-icon{
+        display: block;
+    }
+}

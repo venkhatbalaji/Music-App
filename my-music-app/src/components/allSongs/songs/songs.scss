@@ -1,0 +1,19 @@
+.song{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2vh;
+    padding: 3vh;
+    background-color: #EC6EAD;
+    border-radius: 3vh;
+    text-align: center;
+    cursor: pointer;
+    .play-icon{
+        display: none;
+    }
+}
+.song:hover{
+    .play-icon{
+        display: block;
+    }
+}

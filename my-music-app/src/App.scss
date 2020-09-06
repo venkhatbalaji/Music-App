@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+}
+
+@import '../src/components/header/header.scss';
+@import './components/albums/albums.scss';
+@import './components/loader/loader.scss';
+@import './components/allSongs/allSongs.scss';

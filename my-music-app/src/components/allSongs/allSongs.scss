@@ -1,0 +1,27 @@
+.all-songs-content{
+    width: 95%;
+    margin: 1vh;
+    .songs-type-ahead{
+        text-align: center;
+        margin: 2vh;
+        .songs-type-ahead-text{
+            margin-top: 2vh;
+            border: none;
+            width: 90%;
+            padding: 2vh;
+            text-align: center;
+            border-radius: 3vh;
+            font-size: large;
+        }   
+        .songs-type-ahead-text:focus{
+            border: none;
+            outline: none;
+        }
+    }
+}
+.all-songs{
+    margin: 5vh auto;
+    max-width: 1000px;
+}
+
+@import './songs/songs.scss';

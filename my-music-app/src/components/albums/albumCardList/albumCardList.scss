@@ -1,0 +1,7 @@
+.album-list-row{
+    margin: 2vh auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1vh;
+}
